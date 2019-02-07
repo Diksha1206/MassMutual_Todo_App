@@ -1,3 +1,22 @@
+Clone the project and follow the commands below
+Requirement: You need to have react installed
+
+STEPS:
+Open the command prompt
+Navigate to the project folder
+Run the command: npm start
+
+It will open up browser showing the page of todo App.
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
