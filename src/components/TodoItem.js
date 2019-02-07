@@ -2,11 +2,15 @@ import React from "react"
 import todosData from "../todosData";
 
 function TodoItem(props){
+
+    
+
 const completedStyle ={
     fontStyle: "italic",
     color: "#cdcdcd",
     textDecoration: "line-through"
 }
+
 
 return (
     <div>
@@ -14,7 +18,9 @@ return (
         onChange = {() =>props.handleChange(props.item.id) }
 
         />
-        <p style={props.item.completed ? completedStyle : null}>{props.item.text}</p>
+        <p style={props.item.completed ? completedStyle : null}>{props.item.text}
+        </p>
+        
             
         
     </div>
